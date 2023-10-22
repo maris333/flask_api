@@ -1,0 +1,31 @@
+"""
+Utwórz program w Pythonie wyświetlający następujące opcje (w formie menu):
+- Dodaj notatkę
+- Usuń notatkę
+- Wyświetl wszystkie notatki
+- Edytuj notatkę
+
+
+Po wybraniu odpowiedniej opcji i uzupełnieniu potrzebnych informacji,
+program ma wysyłać odpowiednio spreparowany request HTTP do Flaskowego API i modyfikować bazę danych.
+Dla uproszczenia zakładamy, że połączenie z API nie wymaga żadnego uwierzytelnienia.
+
+
+- Terminal 1
+- Flask app (API)
+
+1. Terminal: displays MENU
+2. Interacts with MENU
+3. Terminal app ----sends request-----> API -------> modifies DB
+
+"""
+
+--------------------------------------------------------
+I                                                       I
+I                                                       I
+run.py <----- __init__.py  views.py <------- models.py
+
+
+
+
+
